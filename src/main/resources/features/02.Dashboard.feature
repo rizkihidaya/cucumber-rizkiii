@@ -1,12 +1,5 @@
-Feature: Login User
+Feature: Dashboard User
 
-  Scenario: User invalid login
-    When User go to Web HRM
-    And User enter username password invalid
-    And User click button login
-    Then User invalid credentials
-
-  Scenario: User valid login
-    When User enter username password valid
-    And User click button login valid
-    Then User valid credentials
+  Scenario: Dashboard user function
+    When User click menu Dashboard
+    Then User on menu Dashboard
